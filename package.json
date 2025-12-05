@@ -1,6 +1,6 @@
 {
-  "name": "ermis-call-sdk",
-  "version": "1.0.0",
+  "name": "@tuannt591/ermis-call-sdk",
+  "version": "1.0.2",
   "description": "TypeScript SDK for Ermis Call utilizing WebAssembly",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -20,7 +20,7 @@
     "webrtc",
     "typescript"
   ],
-  "author": "",
+  "author": "Tuan Nguyen",
   "license": "MIT",
   "devDependencies": {
     "tsup": "^8.0.0",
