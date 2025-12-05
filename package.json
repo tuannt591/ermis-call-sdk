@@ -1,0 +1,32 @@
+{
+  "name": "ermis-call-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript SDK for Ermis Call utilizing WebAssembly",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sdk",
+    "wasm",
+    "ermis",
+    "webrtc",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
